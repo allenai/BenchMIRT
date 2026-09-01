@@ -1,0 +1,26 @@
+[project]
+name = "BenchMIRT"
+version = "0.0.1"
+dependencies = [
+    "pandas",
+    "datasets>=2.19.0",
+    "fire",
+    "safety-eval @ git+https://github.com/allenai/safety-eval@benchmirt_installation",
+    "torch>=2.8.0,<2.9",
+    "transformers==4.57.0",
+    "vllm==0.11.0",
+    "peft>=0.11.1",
+    "tenacity>=8.4.1",
+    "fastchat>=0.1.0",
+    "scikit-learn",
+    "hf-transfer",
+    "math-verify[antlr4_13_2]",
+    "dataframe_image",
+    "matplotlib",
+    "seaborn",
+    "numpy",
+    "statsmodels",
+    "py-irt==0.7.0"
+]
+requires-python = ">=3.12"
+readme = "README.md"
